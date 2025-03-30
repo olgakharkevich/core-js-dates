@@ -163,6 +163,7 @@ function formatDate(date) {
     minute: '2-digit',
     second: '2-digit',
     hour12: true,
+    timeZone: 'UTC',
   });
 }
 
